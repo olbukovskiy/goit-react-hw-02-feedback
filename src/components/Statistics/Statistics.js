@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { PropertyName,PropertyValue } from './Statistics.styled';
+import { PropertyName, PropertyValue } from './Statistics.styled';
 
 export function Statistics({ good, neutral, bad, total, positivePercentage }) {
   return (
